@@ -9,9 +9,9 @@ Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
 ### Install
 
 ```bash
-$ npm i @YOUR_SCOPE/eslint-config-prettier-typescript -D
+$ npm i @code-expert/eslint-config-prettier-typescript -D
 # OR
-$ yarn add @YOUR_SCOPE/eslint-config-prettier-typescript -D
+$ yarn add @code-expert/eslint-config-prettier-typescript -D
 
 TODO: yarn add -D eslint typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
@@ -24,7 +24,7 @@ in `.eslintrc.js`
 module.exports = {
     root: true,
 
-    extends: ['@YOUR_SCOPE/prettier-typescript'],
+    extends: ['@code-expert/prettier-typescript'],
 
     rules: {
         // Override rules
@@ -38,7 +38,7 @@ in `package.json`
 {
     "eslintConfig": {
         "root": true,
-        "extends": "@YOUR_SCOPE/prettier-typescript"
+        "extends": "@code-expert/prettier-typescript"
     }
 }
 ```

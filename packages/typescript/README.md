@@ -5,12 +5,12 @@ Based on the work of [unlikelystudio](https://github.com/unlikelystudio/bases)
 ## Installation
 
 ```bash
-npm install --save-dev @YOUR_SCOPE/configs-typescript
+npm install --save-dev @code-expert/configs-typescript
 
 
 # or
 
-yarn add -D @YOUR_SCOPE/configs-typescript
+yarn add -D @code-expert/configs-typescript
 ```
 
 ### Backend / Library
@@ -19,7 +19,7 @@ In your tsconfig.json
 
 ```json
 {
-  "extends": "@YOUR_SCOPE/configs-typescript/library.json",
+  "extends": "@code-expert/configs-typescript/library.json",
 
   "include": ["src/**/*.ts", "src/types/**/*.d.ts"],
   "exclude": ["node_modules", "**/node_modules/*"]
@@ -32,7 +32,7 @@ In your tsconfig.json
 
 ```json
 {
-  "extends": "@YOUR_SCOPE/configs-typescript/dom.json",
+  "extends": "@code-expert/configs-typescript/dom.json",
 
   "include": ["src/**/*.ts", "src/types/**/*.d.ts"],
   "exclude": ["node_modules", "**/node_modules/*"]

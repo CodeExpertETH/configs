@@ -3,32 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [0.2.0](https://github.com/YOUR_SCOPE/configs/compare/mrm-preset-YOUR_SCOPE@0.1.3...mrm-preset-YOUR_SCOPE@0.2.0) (2021-07-28)
+# [0.2.0](https://github.com/CodeExpertETH/configs/compare/mrm-preset-CodeExpertETH@0.1.3...mrm-preset-CodeExpertETH@0.2.0) (2021-07-28)
 
 
 ### Features
 
-* general package/doc cleanup ([c69a8f6](https://github.com/YOUR_SCOPE/configs/commit/c69a8f60a03531f44d7996955d48d522d9637427))
+* general package/doc cleanup ([c69a8f6](https://github.com/CodeExpertETH/configs/commit/c69a8f60a03531f44d7996955d48d522d9637427))
 
 
 
 
 
-## [0.1.3](https://github.com/YOUR_SCOPE/configs/compare/mrm-preset-YOUR_SCOPE@0.1.1...mrm-preset-YOUR_SCOPE@0.1.3) (2021-07-27)
-
-### Bug Fixes
-
-- fixing typescript config ([90388c4](https://github.com/YOUR_SCOPE/configs/commit/90388c4a744ba11070f668e752123d549994c4fb))
-
-## [0.1.2](https://github.com/YOUR_SCOPE/configs/compare/mrm-preset-YOUR_SCOPE@0.1.1...mrm-preset-YOUR_SCOPE@0.1.2) (2021-07-27)
+## [0.1.3](https://github.com/CodeExpertETH/configs/compare/mrm-preset-CodeExpertETH@0.1.1...mrm-preset-CodeExpertETH@0.1.3) (2021-07-27)
 
 ### Bug Fixes
 
-- fixing typescript config ([90388c4](https://github.com/YOUR_SCOPE/configs/commit/90388c4a744ba11070f668e752123d549994c4fb))
+- fixing typescript config ([90388c4](https://github.com/CodeExpertETH/configs/commit/90388c4a744ba11070f668e752123d549994c4fb))
+
+## [0.1.2](https://github.com/CodeExpertETH/configs/compare/mrm-preset-CodeExpertETH@0.1.1...mrm-preset-CodeExpertETH@0.1.2) (2021-07-27)
+
+### Bug Fixes
+
+- fixing typescript config ([90388c4](https://github.com/CodeExpertETH/configs/commit/90388c4a744ba11070f668e752123d549994c4fb))
 
 ## 0.1.1 (2021-07-12)
 
-**Note:** Version bump only for package mrm-preset-YOUR_SCOPE
+**Note:** Version bump only for package mrm-preset-CodeExpertETH
 
 # [3.0.0](https://github.com/sapegin/mrm/compare/mrm-preset-default@2.4.2...mrm-preset-default@3.0.0) (2021-04-07)
 

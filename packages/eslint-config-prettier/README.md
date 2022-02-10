@@ -9,9 +9,9 @@ Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
 ### Install
 
 ```bash
-$ npm i @YOUR_SCOPE/eslint-config-prettier -D
+$ npm i @code-expert/eslint-config-prettier -D
 # OR
-$ yarn add @YOUR_SCOPE/eslint-config-prettier -D
+$ yarn add @code-expert/eslint-config-prettier -D
 ```
 
 ### Extend this config
@@ -22,7 +22,7 @@ in `.eslintrc.js`
 module.exports = {
     root: true,
 
-    extends: ['@YOUR_SCOPE/prettier'],
+    extends: ['@code-expert/prettier'],
 
     rules: {
         // Override rules
@@ -36,7 +36,7 @@ in `package.json`
 {
     "eslintConfig": {
         "root": true,
-        "extends": "@YOUR_SCOPE/prettier"
+        "extends": "@code-expert/prettier"
     }
 }
 ```

@@ -115,6 +115,6 @@ module.exports.parameters = {
   },
   configScope: {
     type: "input",
-    default: "@YOUR_SCOPE",
+    default: "@code-expert",
   },
 };

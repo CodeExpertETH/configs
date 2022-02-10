@@ -27,9 +27,9 @@ Each rule layers parent rules into it's rules.  For example:
 
 ```
   extends: [
-    '@YOUR_SCOPE/typescript-react',
-    '@YOUR_SCOPE/prettier-react',
-    '@YOUR_SCOPE/prettier-typescript',
+    '@code-expert/typescript-react',
+    '@code-expert/prettier-react',
+    '@code-expert/prettier-typescript',
     ...
 ```
 
@@ -37,22 +37,22 @@ which in turn `eslint-config-prettier-typescript`:
 
 ```
   extends: [
-    '@YOUR_SCOPE/typescript',
-    '@YOUR_SCOPE/prettier',
+    '@code-expert/typescript',
+    '@code-expert/prettier',
     ...
 ```
 etc.
 
-Naturally, when you publish your configs, they will reference your scope, not @YOUR_SCOPE 😄.
+Naturally, when you publish your configs, they will reference your scope, not @code-expert 😄.
 
 ## Instructions after cloning
 
 - [ ] Choose your NPM scope.  
   - [ ] If you use your npm username, you can it as your scope
   - [ ] If you want a different scope, you must login to [npmjs.com](https://www.npmjs.com/) and add an organization to your account
-- [ ] Globally search/replace all occurrences of `@YOUR_SCOPE` and replace with your scope
-- [ ] Globally search/replace all occurrences of `YOUR_SCOPE` and replace with your username
-- [ ] Rename `packages/mrm-preset-YOUR_SCOPE` to match your scope (without the `@`)
+- [ ] Globally search/replace all occurrences of `@code-expert` and replace with your scope
+- [ ] Globally search/replace all occurrences of `CodeExpertETH` and replace with your username
+- [ ] Rename `packages/mrm-preset-CodeExpertETH` to match your scope (without the `@`)
 - [ ] Login to NPM using `npm login`
 - [ ] Publish your packages using `lerna publish`
 
@@ -103,7 +103,7 @@ git reset --hard HEAD
 
  and update your preset at 
 ```
-packages/mrm-preset-YOUR_SCOPE/configs/index.js
+packages/mrm-preset-CodeExpertETH/configs/index.js
 ``` 
 as needed to modify the configs as you see fit.
 

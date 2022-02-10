@@ -9,9 +9,9 @@ Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
 ### Install
 
 ```bash
-$ npm i @YOUR_SCOPE/config-npm-check-updates -D
+$ npm i @code-expert/config-npm-check-updates -D
 # OR
-$ yarn add @YOUR_SCOPE/config-npm-check-updates -D
+$ yarn add @code-expert/config-npm-check-updates -D
 ```
 
 ### Extend this config
@@ -21,5 +21,5 @@ Instead of `package.json`, you must create your own config as such:
 in `.ncurc.js`
 
 ```js
-module.exports = require("@YOUR_SCOPE/config-npm-check-updates");
+module.exports = require("@code-expert/config-npm-check-updates");
 ```

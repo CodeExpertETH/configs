@@ -9,9 +9,9 @@ Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
 ### Install
 
 ```bash
-$ npm i @YOUR_SCOPE/eslint-config-typescript -D
+$ npm i @code-expert/eslint-config-typescript -D
 # OR
-$ yarn add @YOUR_SCOPE/eslint-config-typescript -D
+$ yarn add @code-expert/eslint-config-typescript -D
 ```
 
 ### Extend this config
@@ -22,7 +22,7 @@ in `.eslintrc.js`
 module.exports = {
     root: true,
 
-    extends: ['@YOUR_SCOPE/typescript'],
+    extends: ['@code-expert/typescript'],
 
     rules: {
         // Override rules
@@ -36,7 +36,7 @@ in `package.json`
 {
     "eslintConfig": {
         "root": true,
-        "extends": "@YOUR_SCOPE/typescript"
+        "extends": "@code-expert/typescript"
     }
 }
 ```

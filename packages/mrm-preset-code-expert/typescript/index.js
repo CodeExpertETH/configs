@@ -52,6 +52,6 @@ module.exports.description = "Migrate typescript to global setting";
 module.exports.parameters = {
   configScope: {
     type: "input",
-    default: "@YOUR_SCOPE",
+    default: "@code-expert",
   },
 };

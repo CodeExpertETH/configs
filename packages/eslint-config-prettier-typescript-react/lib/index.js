@@ -4,8 +4,8 @@
 
 module.exports = {
   extends: [
-    "@YOUR_SCOPE/typescript-react",
-    "@YOUR_SCOPE/prettier-typescript",
-    "@YOUR_SCOPE/prettier-react",
+    "@code-expert/typescript-react",
+    "@code-expert/prettier-typescript",
+    "@code-expert/prettier-react",
   ],
 };

@@ -4,7 +4,7 @@
 
 module.exports = {
   extends: [
-    "@YOUR_SCOPE",
+    "@code-expert",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
   ],

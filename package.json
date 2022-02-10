@@ -1,8 +1,8 @@
 {
   "name": "root",
   "author": {
-    "name": "YOUR_NAME",
-    "url": "https://github.com/YOUR_SCOPE/configs"
+    "name": "Code_Expert_Team",
+    "url": "https://github.com/CodeExpertETH/configs"
   },
   "commitlint": {
     "extends": [
@@ -38,7 +38,7 @@
     },
     "root": true
   },
-  "homepage": "https://github.com/YOUR_SCOPE/configs",
+  "homepage": "https://github.com/CodeExpertETH/configs",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
@@ -50,7 +50,7 @@
     "*.{json,md}": "prettier --write",
     "package.json": "syncpack format"
   },
-  "repository": "https://github.com/YOUR_SCOPE/configs.git",
+  "repository": "https://github.com/CodeExpertETH/eslint-config.git",
   "scripts": {
     "lint": "eslint packages",
     "release": "yarn lint && lerna publish"
