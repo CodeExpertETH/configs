@@ -1,0 +1,61 @@
+{
+  "name": "root",
+  "author": {
+    "name": "YOUR_NAME",
+    "url": "https://github.com/YOUR_SCOPE/configs"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional",
+      "@commitlint/config-lerna-scopes"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@commitlint/config-lerna-scopes": "^13.1.0",
+    "eslint": "^7.31.0",
+    "husky": "^7.0.1",
+    "lerna": "^4.0.0",
+    "lint-staged": "^11.1.1",
+    "prettier": "^2.3.2",
+    "syncpack": "^5.7.11"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es2021": true,
+      "jest": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 12
+    },
+    "root": true
+  },
+  "homepage": "https://github.com/YOUR_SCOPE/configs",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{js,ts}": "eslint --fix",
+    "*.{json,md}": "prettier --write",
+    "package.json": "syncpack format"
+  },
+  "repository": "https://github.com/YOUR_SCOPE/configs.git",
+  "scripts": {
+    "lint": "eslint packages",
+    "release": "yarn lint && lerna publish"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

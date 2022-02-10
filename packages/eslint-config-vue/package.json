@@ -1,0 +1,30 @@
+{
+  "name": "@YOUR_SCOPE/eslint-config-vue",
+  "description": "YOUR_SCOPE eslint config for Vue.js",
+  "version": "0.2.0",
+  "author": {
+    "name": "YOUR_NAME",
+    "email": "YOUR_SCOPE@gmail.com"
+  },
+  "dependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/eslint-parser": "^7.14.7",
+    "@YOUR_SCOPE/eslint-config": "0.2.0",
+    "eslint-plugin-vue": "^7.14.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/YOUR_SCOPE/configs#readme",
+  "keywords": [
+    "YOUR_SCOPE",
+    "eslint-config",
+    "vue"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "YOUR_SCOPE/configs.git"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@YOUR_SCOPE/eslint-config-typescript-vue",
+  "description": "YOUR_SCOPE eslint config for TypeScript and Vue.js",
+  "version": "0.2.0",
+  "author": {
+    "name": "YOUR_NAME",
+    "email": "YOUR_SCOPE@gmail.com"
+  },
+  "dependencies": {
+    "@YOUR_SCOPE/eslint-config-typescript": "0.2.0",
+    "@YOUR_SCOPE/eslint-config-vue": "0.2.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/YOUR_SCOPE/configs#readme",
+  "keywords": [
+    "YOUR_SCOPE",
+    "eslint-config",
+    "typescript",
+    "vue"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "YOUR_SCOPE/configs.git"
+}
