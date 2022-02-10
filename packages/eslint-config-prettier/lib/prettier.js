@@ -17,6 +17,6 @@ module.exports = {
 
   // Rules overrides
   rules: {
-    "prettier/prettier": "warn",
+    "prettier/prettier": "off",
   },
 };

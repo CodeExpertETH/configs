@@ -117,12 +117,6 @@ Enjoy!
 
 **[eslint-config-prettier](./packages/eslint-config-prettier)**
 
-#### ESLint with VueJs
-
-**[eslint-config-vue](./packages/eslint-config-vue)**
-
-**[eslint-config-prettier-vue](./packages/eslint-config-prettier-vue)**
-
 #### ESLint with React
 
 **[eslint-config-react](./packages/eslint-config-react)**
@@ -134,12 +128,6 @@ Enjoy!
 **[eslint-config-typescript](./packages/eslint-config-typescript)**
 
 **[eslint-config-prettier-typescript](./packages/eslint-config-prettier-typescript)**
-
-### StyleLint
-
-**[stylelint-config](./packages/stylelint-config)**
-
-**[stylelint-config-scss](./packages/stylelint-config-scss)**
 
 ### Prettier
 
