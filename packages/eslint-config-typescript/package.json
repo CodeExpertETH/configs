@@ -7,10 +7,10 @@
     "email": "expert@inf.ethz.ch"
   },
   "dependencies": {
-    "@code-expert/eslint-config": "0.2.1",
-    "@typescript-eslint/eslint-plugin": "^4.15.1",
-    "@typescript-eslint/parser": "^4.15.1",
-    "eslint-plugin-promise": "^5.1.0"
+    "@code-expert/eslint-config": "0.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
+    "eslint-plugin-promise": "^6.0.0"
   },
   "files": [
     "lib"
