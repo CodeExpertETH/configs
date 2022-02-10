@@ -14,7 +14,7 @@ module.exports = {
    * printWidth: <int>
    * default: 80
    */
-  // printWidth: 80,
+  printWidth: 100,
   /**
    * Tab Width
    * https://prettier.io/docs/en/options.html#tab-width
@@ -24,7 +24,7 @@ module.exports = {
    * tabWidth: <int>
    * default: 2
    */
-  // tabWidth: 2,
+  tabWidth: 2,
   /**
    * Tabs
    * https://prettier.io/docs/en/options.html#tabs
@@ -44,7 +44,7 @@ module.exports = {
    * semi: <bool>
    * default: true
    */
-  // semi: true,
+  semi: true,
   /**
    * Quotes
    * https://prettier.io/docs/en/options.html#quotes
@@ -54,7 +54,7 @@ module.exports = {
    * singleQuote: <bool>
    * default: false
    */
-  // singleQuote: false,
+  singleQuote: true,
   /**
    * Quote Props
    * https://prettier.io/docs/en/options.html#quote-props
@@ -84,7 +84,7 @@ module.exports = {
    * trailingComma: "<es5|none|all>"
    * default: 'es5'
    */
-  // trailingComma: 'es5',
+  trailingComma: 'all',
   /**
    * Bracket Spacing
    * https://prettier.io/docs/en/options.html#bracket-spacing
