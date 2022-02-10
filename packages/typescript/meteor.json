@@ -8,7 +8,6 @@
     "paths": {
       "/*": ["*"]
     },
-    "outDir": "build",
     "jsx": "react"
   },
   "exclude": ["node_modules", ".meteor"]
