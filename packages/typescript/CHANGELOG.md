@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/CodeExpertETH/configs/compare/@code-expert/configs-typescript@0.0.4...@code-expert/configs-typescript@0.1.0) (2022-02-10)
+
+**Note:** Version bump only for package @code-expert/configs-typescript
+
+
+
+
+
 ## [0.0.4](https://github.com/CodeExpertETH/configs/compare/@code-expert/configs-typescript@0.0.3...@code-expert/configs-typescript@0.0.4) (2022-02-10)
 
 **Note:** Version bump only for package @code-expert/configs-typescript
