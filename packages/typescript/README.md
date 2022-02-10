@@ -26,13 +26,13 @@ In your tsconfig.json
 }
 ```
 
-### Dom
+### Meteor
 
 In your tsconfig.json
 
 ```json
 {
-  "extends": "@code-expert/configs-typescript/dom.json",
+  "extends": "@code-expert/configs-typescript/meteor.json",
 
   "include": ["src/**/*.ts", "src/types/**/*.d.ts"],
   "exclude": ["node_modules", "**/node_modules/*"]
