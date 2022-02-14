@@ -43,71 +43,27 @@ which in turn `eslint-config-prettier-typescript`:
 ```
 etc.
 
-Naturally, when you publish your configs, they will reference your scope, not @code-expert 😄.
+Naturally, when you publish your configs, they will reference your scope.
 
-## Instructions after cloning
+## Add rules
 
-- [ ] Choose your NPM scope.  
-  - [ ] If you use your npm username, you can it as your scope
-  - [ ] If you want a different scope, you must login to [npmjs.com](https://www.npmjs.com/) and add an organization to your account
-- [ ] Globally search/replace all occurrences of `@code-expert` and replace with your scope
-- [ ] Globally search/replace all occurrences of `CodeExpertETH` and replace with your username
-- [ ] Rename `packages/mrm-preset-CodeExpertETH` to match your scope (without the `@`)
+You should only add new rules to the following packages:
+
+**[eslint-config](./packages/eslint-config)**: Add default js rules
+**[eslint-config-prettier](./packages/eslint-config-prettier)** Add eslint rules related to prettier
+**[eslint-config-react](./packages/eslint-config-react)** Add eslint react rules
+**[eslint-config-typescript](./packages/eslint-config-typescript)** Add eslint ts rules
+**[eslint-config-typescript-react](./packages/eslint-config-typescript-react)** Add eslint rules that should apply to the combination.
+
+If you change the prettier configs change this in **[prettier-config](./packages/prettier-config)**. New ts config should be added to **[typescript](./packages/typescript)**
+
+
+
+
+## Instructions to publish
+
 - [ ] Login to NPM using `npm login`
 - [ ] Publish your packages using `lerna publish`
-
-## MRM
-
-[mrm](https://mrm.js.org/) is a fantastic tool for updating projects.  Their tagline is:
-
-> Codemods for your project config files
-
-I'm a huge fan of this project.  It allows me to script intelligent updates to my configs based on set criteria.  For example, in the `configs` preset (explained below), it does:
-
-```
-  const parts = []
-  if (hasPrettier) parts.push('prettier')
-  if (hasTypescript) parts.push('typescript')
-  if (hasVue) parts.push('vue')
-  else if (hasReact) parts.push('react')
-
-  const base = parts.length ? '-' + parts.join('-') : ''
-  const full = `${configScope}/eslint-config${base}`
-  const eslintPreset = `${configScope}/${base.slice(1)}`
-```
-
-So, by `package.json` inspection, it determines which preset you most likely want, and updates the config to match that preset.  Very cool.
-
-### MRM Presets
-
-A [Preset](https://mrm.js.org/docs/making-presets) is a way for you to customize MRM behavior.  Included is a custom preset for your own use where you can put your upgrades as you use MRM.  In this preset I have 2 tasks:
-
-- configs: Migrate configs of a project to this structure
-- typescript: Migrate your `tsconfig.json` to this structure (yes, this should probably be part of the `configs` preset, but it was easier to simply tweak the existing MRM `typescript` task)
-
-To use these, follow these steps:
-
-- [ ] Publish your preset per instructions above
-- [ ] Install your preset globally with `npm i -g mrm-preset-YOURSCOPE`
-- [ ] Change into a project you want to upgrade 
-- [ ] Make sure you have committed all your changes and your git tree is clean
-- [ ] Run `mrm eslint`
-- [ ] If you use Prettier, run `mrm prettier`
-  - (these two command setup eslint/prettier in a standard way -- the next step really needs `.eslintrc.json` instead of a .js file)
-- [ ] Run `mrm --preset YOURSCOPE config`
-
-Once that finishes, you can evaluate the proposed changes and see if you like the results.  If they are satisfactory, commit them and enjoy the new config.  If they are not, do a 
-```
-git reset --hard HEAD
-```
-
- and update your preset at 
-```
-packages/mrm-preset-CodeExpertETH/configs/index.js
-``` 
-as needed to modify the configs as you see fit.
-
-Enjoy!
 
 ## Included Configs
 
@@ -117,7 +73,7 @@ Enjoy!
 
 **[eslint-config-prettier](./packages/eslint-config-prettier)**
 
-#### ESLint with React
+### ESLint with React
 
 **[eslint-config-react](./packages/eslint-config-react)**
 
@@ -127,7 +83,11 @@ Enjoy!
 
 **[eslint-config-typescript](./packages/eslint-config-typescript)**
 
+**[eslint-config-typescript-react](./packages/eslint-config-typescript-react)**
+
 **[eslint-config-prettier-typescript](./packages/eslint-config-prettier-typescript)**
+
+**[eslint-config-prettier-typescript-react](./packages/eslint-config-prettier-typescript-react)**
 
 ### Prettier
 
@@ -136,7 +96,3 @@ Enjoy!
 ### Typescript
 
 **[typescript](./packages/typescript)**
-
-### NCU (npm-check-updates)
-
-**[npm-check-updates](./packages/npm-check-updates)
