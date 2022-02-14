@@ -32,6 +32,11 @@ module.exports = {
 
   // Rules overrides
   rules: {
+    'no-undef': 'off',
+    'no-unused-vars': 'off',
+    'no-redeclare': 'off',
+    'no-dupe-class-members': 'off',
+
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/naming-convention': 'off',
     '@typescript-eslint/no-explicit-any': 'error',
@@ -73,15 +78,4 @@ module.exports = {
       }
     ]
   },
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      rules: {
-        'no-undef': 'off',
-        'no-unused-vars': 'off',
-        'no-redeclare': 'off',
-        'no-dupe-class-members': 'off',
-      },
-    },
-  ],
 };
