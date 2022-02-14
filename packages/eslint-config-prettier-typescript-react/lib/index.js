@@ -4,7 +4,7 @@
 
 module.exports = {
   extends: [
-    "@code-expert/typescript-react",
     "@code-expert/prettier",
+    "@code-expert/typescript-react",
   ],
 };
