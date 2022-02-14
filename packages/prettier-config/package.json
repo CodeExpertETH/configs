@@ -19,5 +19,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "CodeExpertETH/configs.git"
+  "repository": "CodeExpertETH/eslint-configs.git"
 }
