@@ -78,6 +78,9 @@ module.exports = {
       files: ['*.ts', '*.tsx'],
       rules: {
         'no-undef': 'off',
+        'no-unused-vars': 'off',
+        'no-redeclare': 'off',
+        'no-dupe-class-members': 'off',
       },
     },
   ],
