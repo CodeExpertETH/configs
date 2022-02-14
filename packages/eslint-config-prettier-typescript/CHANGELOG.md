@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.9](https://github.com/CodeExpertETH/configs/compare/@code-expert/eslint-config-prettier-typescript@0.0.8...@code-expert/eslint-config-prettier-typescript@0.0.9) (2022-02-14)
+
+**Note:** Version bump only for package @code-expert/eslint-config-prettier-typescript
+
+
+
+
+
 ## [0.0.8](https://github.com/CodeExpertETH/configs/compare/@code-expert/eslint-config-prettier-typescript@0.0.7...@code-expert/eslint-config-prettier-typescript@0.0.8) (2022-02-14)
 
 **Note:** Version bump only for package @code-expert/eslint-config-prettier-typescript
