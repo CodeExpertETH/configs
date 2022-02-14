@@ -32,6 +32,35 @@ module.exports = {
 
   // Rules overrides
   rules: {
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/naming-convention': 'off',
+    '@typescript-eslint/no-explicit-any': 'error',
+    '@typescript-eslint/no-non-null-assertion': 'error',
+    '@typescript-eslint/restrict-template-expressions': 'error',
+    '@typescript-eslint/no-base-to-string': 'error',
+    '@typescript-eslint/restrict-plus-operands': 'error',
+    '@typescript-eslint/no-redeclare': 'off',
+    '@typescript-eslint/dot-notation': 'off', // is in conflict with noPropertyAccessFromIndexSignature
+    '@typescript-eslint/strict-boolean-expressions': [
+      'error',
+      {
+        allowString: true,
+        allowNumber: true,
+        allowNullableObject: true,
+        allowNullableBoolean: true,
+        allowNullableString: false,
+        allowNullableNumber: false,
+        allowAny: false,
+        allowRuleToRunWithoutStrictNullChecksIKnowWhatIAmDoing: false,
+      },
+    ],
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        argsIgnorePattern: '^_',
+        ignoreRestSiblings: true,
+      },
+    ],
     "@typescript-eslint/await-thenable": 'error',
     "@typescript-eslint/no-floating-promises": 'error',
     "@typescript-eslint/no-empty-function": [
