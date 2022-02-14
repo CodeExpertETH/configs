@@ -1,7 +1,7 @@
 {
   "name": "@code-expert/eslint-config-typescript-react",
   "description": "CodeExpertETH eslint config for TypeScript and React.js",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "author": {
     "name": "Code_Expert_Team",
     "email": "expert@inf.ethz.ch"
