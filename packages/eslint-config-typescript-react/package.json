@@ -7,8 +7,8 @@
     "email": "expert@inf.ethz.ch"
   },
   "dependencies": {
-    "@code-expert/eslint-config-react": "0.0.1",
-    "@code-expert/eslint-config-typescript": "0.0.1"
+    "@code-expert/eslint-config-react": "0.0.2",
+    "@code-expert/eslint-config-typescript": "0.0.4"
   },
   "files": [
     "lib"
