@@ -3,5 +3,5 @@
  */
 
 module.exports = {
-  extends: ["@code-expert/typescript", "@code-expert/prettier"],
+  extends: [ "@code-expert/prettier", "@code-expert/typescript"]
 };
