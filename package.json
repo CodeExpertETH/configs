@@ -50,7 +50,7 @@
     "*.{json,md}": "prettier --write",
     "package.json": "syncpack format"
   },
-  "repository": "https://github.com/CodeExpertETH/eslint-config.git",
+  "repository": "https://github.com/CodeExpertETH/configs.git",
   "scripts": {
     "lint": "eslint packages",
     "release": "yarn lint && lerna publish"

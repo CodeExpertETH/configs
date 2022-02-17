@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.1.1](https://github.com/CodeExpertETH/eslint-configs/compare/@code-expert/eslint-config-typescript@0.1.0...@code-expert/eslint-config-typescript@0.1.1) (2022-02-14)
+## [0.1.1](https://github.com/CodeExpertETH/configs/compare/@code-expert/eslint-config-typescript@0.1.0...@code-expert/eslint-config-typescript@0.1.1) (2022-02-14)
 
 **Note:** Version bump only for package @code-expert/eslint-config-typescript
 
