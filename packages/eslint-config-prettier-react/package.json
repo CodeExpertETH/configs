@@ -1,7 +1,7 @@
 {
   "name": "@code-expert/eslint-config-prettier-react",
   "description": "CodeExpertETH eslint config for React.js with prettier",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": {
     "name": "Code_Expert_Team",
     "email": "expert@inf.ethz.ch"
