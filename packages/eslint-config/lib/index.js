@@ -8,8 +8,12 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
+  plugins: [
+    'redos'
+  ],
   rules: {
     'no-underscore-dangle': 'off',
+    'redos/no-vulnerable': 'error'
   }
 
 };
