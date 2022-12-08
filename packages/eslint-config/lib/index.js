@@ -9,7 +9,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    'redos'
+    'redos', 'fp-ts', 'no-only-tests'
   ],
   rules: {
     'no-underscore-dangle': 'off',
