@@ -1,14 +1,14 @@
 {
   "name": "@code-expert/eslint-config-prettier-react",
   "description": "CodeExpertETH eslint config for React.js with prettier",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "author": {
     "name": "Code_Expert_Team",
     "email": "expert@inf.ethz.ch"
   },
   "dependencies": {
-    "@code-expert/eslint-config-prettier": "0.4.1",
-    "@code-expert/eslint-config-react": "0.3.1"
+    "@code-expert/eslint-config-prettier": "0.4.2",
+    "@code-expert/eslint-config-react": "0.3.2"
   },
   "files": [
     "lib"

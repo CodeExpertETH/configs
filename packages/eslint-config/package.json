@@ -1,7 +1,7 @@
 {
   "name": "@code-expert/eslint-config",
   "description": "CodeExpertETH eslint config",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "author": {
     "name": "Code_Expert_Team",
     "email": "expert@inf.ethz.ch"
