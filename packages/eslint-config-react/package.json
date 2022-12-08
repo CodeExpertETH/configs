@@ -1,13 +1,13 @@
 {
   "name": "@code-expert/eslint-config-react",
   "description": "CodeExpertETH eslint config for React.js",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": {
     "name": "Code_Expert_Team",
     "email": "expert@inf.ethz.ch"
   },
   "dependencies": {
-    "@code-expert/eslint-config": "0.3.0",
+    "@code-expert/eslint-config": "0.3.1",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0"
