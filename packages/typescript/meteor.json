@@ -6,6 +6,10 @@
     "lib": ["es2020","dom", "dom.iterable"],
     "noEmit": true,
     "paths": {
+      "meteor/*": [
+        "node_modules/@types/meteor/*",
+        ".meteor/local/types/packages.d.ts"
+      ],
       "/*": ["*"]
     },
     "jsx": "react"

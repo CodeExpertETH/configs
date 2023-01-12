@@ -20,6 +20,9 @@ module.exports = {
     'fp-ts/prefer-chain': 'error',
     'fp-ts/prefer-traverse': 'error',
     'no-only-tests/no-only-tests': 'error',
+    'promise/no-return-in-finally': 'error',
+    'promise/no-return-wrap': 'error',
+    'promise/param-names': 'error',
     'require-await': 'error',
     'object-shorthand': 'error',
     'redos/no-vulnerable': 'error'
