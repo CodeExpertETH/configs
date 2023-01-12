@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.3](https://github.com/CodeExpertETH/configs/compare/@code-expert/eslint-config-prettier-react@0.4.2...@code-expert/eslint-config-prettier-react@0.4.3) (2023-01-12)
+
+**Note:** Version bump only for package @code-expert/eslint-config-prettier-react
+
+
+
+
+
 ## [0.4.2](https://github.com/CodeExpertETH/configs/compare/@code-expert/eslint-config-prettier-react@0.4.1...@code-expert/eslint-config-prettier-react@0.4.2) (2022-12-08)
 
 **Note:** Version bump only for package @code-expert/eslint-config-prettier-react
