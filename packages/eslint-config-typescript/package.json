@@ -1,13 +1,13 @@
 {
   "name": "@code-expert/eslint-config-typescript",
   "description": "CodeExpertETH eslint config for TypeScript",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "author": {
     "name": "Code_Expert_Team",
     "email": "expert@inf.ethz.ch"
   },
   "dependencies": {
-    "@code-expert/eslint-config": "0.3.3",
+    "@code-expert/eslint-config": "0.3.4",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
     "eslint-plugin-promise": "^6.1.1"
