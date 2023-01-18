@@ -9,7 +9,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    'redos', 'fp-ts', 'no-only-tests'
+    'redos', 'fp-ts', 'no-only-tests', 'promise'
   ],
   rules: {
     'no-underscore-dangle': 'off',
@@ -27,5 +27,4 @@ module.exports = {
     'object-shorthand': 'error',
     'redos/no-vulnerable': 'error'
   }
-
 };
