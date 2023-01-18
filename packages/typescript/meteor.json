@@ -8,6 +8,7 @@
     "paths": {
       "meteor/*": [
         "node_modules/@types/meteor/*",
+        "typings/*.d.ts",
         ".meteor/local/types/packages.d.ts"
       ],
       "/*": ["*"]
