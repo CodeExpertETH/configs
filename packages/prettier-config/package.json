@@ -1,7 +1,7 @@
 {
   "name": "@code-expert/prettier-config",
   "description": "CodeExpertETH prettier config",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": {
     "name": "Code_Expert_Team",
     "email": "expert@inf.ethz.ch"
