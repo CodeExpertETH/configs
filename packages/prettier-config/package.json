@@ -20,7 +20,7 @@
     "access": "public"
   },
   "repository": "CodeExpertETH/configs.git",
-  "devDependencies": {
+  "dependencies": {
     "prettier-plugin-organize-imports": "^3.2.2"
   }
 }
