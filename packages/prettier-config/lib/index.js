@@ -219,5 +219,8 @@ module.exports = {
    * embeddedLanguageFormatting: "<auto|off>"
    * default: "auto"
    */
-  plugins: ["prettier-plugin-organize-imports"],
+  plugins: ["prettier-plugin-sort-imports"],
+  "importOrder": ["^meteor/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 };

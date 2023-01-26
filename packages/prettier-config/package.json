@@ -20,7 +20,7 @@
     "access": "public"
   },
   "repository": "CodeExpertETH/configs.git",
-  "dependencies": {
-    "prettier-plugin-organize-imports": "^3.2.2"
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.0.0"
   }
 }
