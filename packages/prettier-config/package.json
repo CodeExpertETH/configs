@@ -19,5 +19,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "CodeExpertETH/configs.git"
+  "repository": "CodeExpertETH/configs.git",
+  "devDependencies": {
+    "prettier-plugin-organize-imports": "^3.2.2"
+  }
 }
