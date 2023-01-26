@@ -1,7 +1,6 @@
 # Personal configs
 
 Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
-Adapted for code expert
 
 # Prettier config
 

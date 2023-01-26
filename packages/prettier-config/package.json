@@ -19,8 +19,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "CodeExpertETH/configs.git",
-  "dependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^4.0.0"
-  }
+  "repository": "CodeExpertETH/configs.git"
 }

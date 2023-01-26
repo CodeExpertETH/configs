@@ -219,8 +219,4 @@ module.exports = {
    * embeddedLanguageFormatting: "<auto|off>"
    * default: "auto"
    */
-  plugins: ["@trivago/prettier-plugin-sort-imports"],
-  "importOrder": ["^meteor/(.*)$", "^[./]"],
-  "importOrderSeparation": true,
-  "importOrderSortSpecifiers": true
 };
