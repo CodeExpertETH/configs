@@ -14,6 +14,8 @@ $ npm i @code-expert/prettier-config -D
 $ yarn add @code-expert/prettier-config -D
 ```
 
+Added default sorter
+
 ### Extend this config
 
 in `package.json`
