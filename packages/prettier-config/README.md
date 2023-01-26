@@ -1,6 +1,7 @@
 # Personal configs
 
 Credit:  Forked from [ntnyq](https://github.com/ntnyq/configs)
+Adapted for code expert
 
 # Prettier config
 
@@ -13,8 +14,6 @@ $ npm i @code-expert/prettier-config -D
 # OR
 $ yarn add @code-expert/prettier-config -D
 ```
-
-Added default sorter
 
 ### Extend this config
 
