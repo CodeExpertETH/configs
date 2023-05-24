@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.4](https://github.com/CodeExpertETH/configs/compare/@code-expert/configs-typescript@0.2.3...@code-expert/configs-typescript@0.2.4) (2023-05-24)
+
+
+### Bug Fixes
+
+* remove trailing comma ([0d45b90](https://github.com/CodeExpertETH/configs/commit/0d45b9043ff414fa9e346a862dfec4e8d5add62c))
+
+
+
+
+
 ## [0.2.3](https://github.com/CodeExpertETH/configs/compare/@code-expert/configs-typescript@0.2.2...@code-expert/configs-typescript@0.2.3) (2023-01-18)
 
 **Note:** Version bump only for package @code-expert/configs-typescript
