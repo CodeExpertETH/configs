@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.8](https://github.com/CodeExpertETH/configs/compare/@code-expert/eslint-config-prettier-typescript-react@0.6.7...@code-expert/eslint-config-prettier-typescript-react@0.6.8) (2023-12-07)
+
+**Note:** Version bump only for package @code-expert/eslint-config-prettier-typescript-react
+
 ## [0.6.7](https://github.com/CodeExpertETH/configs/compare/@code-expert/eslint-config-prettier-typescript-react@0.6.5...@code-expert/eslint-config-prettier-typescript-react@0.6.7) (2023-07-10)
 
 **Note:** Version bump only for package @code-expert/eslint-config-prettier-typescript-react
