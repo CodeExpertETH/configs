@@ -32,6 +32,7 @@ module.exports = {
 
   // Rules overrides
   rules: {
+    'import/namespace': 'off', // redundant in a TS project
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/naming-convention': 'off',
     '@typescript-eslint/no-explicit-any': 'error',
